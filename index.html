@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BF Interpreter</title>
+        <script src="manipulation.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body onload="initiate();">
+		<div>
+            <table>
+                <tbody>
+                    <tr id="array"></tr>
+                    <tr id="pointer"></tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <textarea id="code" placeholder="Input brainfuck text here..."></textarea>
+        <textarea id="results" readonly placeholder="Results:"></textarea><br/>
+        <button type="button" onclick="action(1);">1 Step</button><button type="button" onclick="action(5);">5 Steps</button><button type="button" onclick="action(10);">10 Steps</button><button type="button" onclick="action(20);">20 Steps</button><button type="button" onclick="action(-1);">All Steps</button>
+    </body>
+</html>

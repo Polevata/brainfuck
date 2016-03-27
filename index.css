@@ -1,0 +1,40 @@
+html, body
+{
+    height:100%;
+    padding:0px;
+    overflow:hidden;
+}
+table
+{
+    width:100%;
+    border-collapse:collapse;
+}
+td
+{
+    border: 5px solid black;
+    font-size: 5em;
+    padding:5px;
+    text-align:center;
+}
+#pointer td
+{
+    border:0px;
+    font-size:3em;
+    color:blue;
+}
+textarea
+{
+    width:48%;
+    height:70%;
+    font-family:monospace;
+    font-size:1em;
+}
+button
+{
+    margin:5px;
+}
+div
+{
+    overflow-x:scroll;
+    overflow-y:hidden;
+}
