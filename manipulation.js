@@ -1,7 +1,7 @@
 var CURRENT_PLACE = 0; //Current spot in the formatted text being run
 var PREVIOUS_VALUE = ""; //What to check text against every run to ensure no changes have occured
 var FORMATTED_TEXT = ""; //Inputted text sans all that other stuff
-var ARRAY_SIZE = 100; //Number of cells to work with in array
+var ARRAY_SIZE; //Number of cells to work with in array
 var INDEX = 0; //Current spot in the array
 var INPUT_STRING; //Stores ascii text to be fed in with a 0 following
 var NUL;
@@ -11,6 +11,7 @@ function $(id)
 }
 function initiate()
 {
+    ARRAY_SIZE = prompt("Array Size:");
     for (i=0;i<ARRAY_SIZE;i++)
     {
         $('array').innerHTML+="<td id='a"+i+"'>0</td>";
