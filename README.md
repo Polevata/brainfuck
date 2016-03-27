@@ -1,4 +1,5 @@
 This is an interpreter for the brainfuck language.
+*README best viewed in raw text*
 Specifications:
 All commands should work as expected except perhaps the ',' command
 The ',' command will receive input
